@@ -1,6 +1,16 @@
 fileFormatVersion: 2
 guid: eee7fb7498742404191804e49f83bb57
 TextureImporter:
+  fileIDToRecycleName:
+    21300000: explosion_spritesheet_for_games_by_gintasdx-d5r28q5_0
+    21300002: explosion_spritesheet_for_games_by_gintasdx-d5r28q5_1
+    21300004: explosion_spritesheet_for_games_by_gintasdx-d5r28q5_2
+    21300006: explosion_spritesheet_for_games_by_gintasdx-d5r28q5_3
+    21300008: explosion_spritesheet_for_games_by_gintasdx-d5r28q5_4
+    21300010: explosion_spritesheet_for_games_by_gintasdx-d5r28q5_5
+    21300012: explosion_spritesheet_for_games_by_gintasdx-d5r28q5_6
+    21300014: explosion_spritesheet_for_games_by_gintasdx-d5r28q5_7
+    21300016: explosion_spritesheet_for_games_by_gintasdx-d5r28q5_8
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0

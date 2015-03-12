@@ -19,9 +19,18 @@ public class GameControlsMobile : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+#if UNITY_ANDROID
 		v = Input.acceleration.x;
 		h = Input.acceleration.y;
+#endif
 
+#if UNITY_WEBPLAYER || UNITY_EDITOR
+		v = Input.GetAxis("Horizontal") + Input.GetAxis("Mouse X");
+		h = Input.GetAxis("Vertical") + Input.GetAxis("Mouse Y");;
+
+
+
+#endif
 		motor.v = v;
 		motor.h = h;
 

@@ -1,6 +1,41 @@
 fileFormatVersion: 2
 guid: 2e828e3f7969bbe448ad2fc0f8ad2432
 TextureImporter:
+  fileIDToRecycleName:
+    21300000: Exp_type_A_0
+    21300002: Exp_type_A_1
+    21300004: Exp_type_A_2
+    21300006: Exp_type_A_3
+    21300008: Exp_type_A_4
+    21300010: Exp_type_A_5
+    21300012: Exp_type_A_6
+    21300014: Exp_type_A_7
+    21300016: Exp_type_A_8
+    21300018: Exp_type_A_9
+    21300020: Exp_type_A_10
+    21300022: Exp_type_A_11
+    21300024: Exp_type_A_12
+    21300026: Exp_type_A_13
+    21300028: Exp_type_A_14
+    21300030: Exp_type_A_15
+    21300032: Exp_type_A_16
+    21300034: Exp_type_A_17
+    21300036: Exp_type_A_18
+    21300038: Exp_type_A_19
+    21300040: Exp_type_A_20
+    21300042: Exp_type_A_21
+    21300044: Exp_type_A_22
+    21300046: Exp_type_A_23
+    21300048: Exp_type_A_24
+    21300050: Exp_type_A_25
+    21300052: Exp_type_A_26
+    21300054: Exp_type_A_27
+    21300056: Exp_type_A_28
+    21300058: Exp_type_A_29
+    21300060: Exp_type_A_30
+    21300062: Exp_type_A_31
+    21300064: Exp_type_A_32
+    21300066: Exp_type_A_33
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0

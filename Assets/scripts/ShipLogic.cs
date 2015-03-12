@@ -39,6 +39,8 @@ public class ShipLogic : MonoBehaviour {
 
 	void Update () {
 	//fire gun
+
+#if UNITY_ANDROID
 	foreach(Touch touch in Input.touches){
 			if(touch.phase == TouchPhase.Began){
 				if(Time.timeScale > 0){
@@ -47,6 +49,19 @@ public class ShipLogic : MonoBehaviour {
 				}
 			}
 		}
+#endif
+
+#if UNITY_WEBPLAYER || UNITY_
+
+		if(Input.GetButtonDown("Shoot")){
+			if(Time.timeScale > 0){
+				gun.Emit(1);
+				audio.Play();
+			}
+		}
+
+#endif
+
 	}
 
 
