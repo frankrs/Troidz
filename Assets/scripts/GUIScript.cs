@@ -61,9 +61,9 @@ public class GUIScript : MonoBehaviour {
 				Time.timeScale = 1f;
 				Application.LoadLevel(0);
 			}
-			if(GUILayout.Button("Exit",GUILayout.Height(Screen.height/8))){
-				Application.Quit();
-			}
+//			if(GUILayout.Button("Exit",GUILayout.Height(Screen.height/8))){
+//				Application.Quit();
+//			}
 		}
 		GUILayout.EndArea();
 	}
