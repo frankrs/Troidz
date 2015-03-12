@@ -13,8 +13,8 @@ public class GameControlsMobile : MonoBehaviour {
 
 
 	// Use this for initialization
-	void Start () {
-
+	void Awake () {
+		Screen.lockCursor = true;
 	}
 	
 	// Update is called once per frame
