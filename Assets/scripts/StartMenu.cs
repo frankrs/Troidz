@@ -56,9 +56,9 @@ public class StartMenu : MonoBehaviour {
 			if(GUILayout.Button("Guide",GUILayout.Height(Screen.height/8))){
 				titleState = TitleState.instructions;
 			}
-			if(GUILayout.Button("Exit",GUILayout.Height(Screen.height/8))){
-				Application.Quit();
-			}
+//			if(GUILayout.Button("Exit",GUILayout.Height(Screen.height/8))){
+//				Application.Quit();
+//			}
 			GUILayout.EndArea();
 		}
 		if(titleState == TitleState.instructions){
